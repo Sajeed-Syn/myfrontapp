@@ -22,7 +22,7 @@ class GetEmployees extends React.Component {
     render() {
         return (
             <div>
-                <h2>Employees Details...</h2>
+                <h2>Employees Details White...</h2>
                 <table>
                     <thead>
                         <tr>
