@@ -9,7 +9,7 @@ class GetEmployees extends React.Component {
         };
     }
     componentDidMount() {
-        fetch("https://empwebapiservice.azurewebsites.net/api/employee")
+        fetch("https://myappsaj.azurewebsites.net/api/employee")
         .then(res => res.json())
         .then(
           (result) => {
